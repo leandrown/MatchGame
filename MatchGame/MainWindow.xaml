@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Find all of the matching animals" Height="450" Width="400">
+   <Grid>
+      <Grid.ColumnDefinitions>
+         <ColumnDefinition/>
+         <ColumnDefinition/>
+         <ColumnDefinition/>
+         <ColumnDefinition/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+         <RowDefinition/>
+         <RowDefinition/>
+         <RowDefinition/>
+         <RowDefinition/>
+         <RowDefinition/>
+      </Grid.RowDefinitions>
+      <TextBlock x:Name="textBlock00" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock10" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock20" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock30" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      
+      <TextBlock x:Name="textBlock01" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock11" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock21" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock31" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      
+      <TextBlock x:Name="textBlock02" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock12" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock22" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock32" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
 
-    </Grid>
+      <TextBlock x:Name="textBlock03" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock13" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock23" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+      <TextBlock x:Name="textBlock33" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+   </Grid>
 </Window>
